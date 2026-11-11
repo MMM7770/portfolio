@@ -1,0 +1,12 @@
+{
+  "name": "muhammadrahim-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "sass styles.scss styles.css --no-source-map",
+    "watch": "sass --watch styles.scss:styles.css"
+  },
+  "devDependencies": {
+    "sass": "^1.89.0"
+  }
+}
